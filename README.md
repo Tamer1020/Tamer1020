@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi, I'm Tamer 👋
 
-<!--
-**Tamer1020/Tamer1020** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Electrical Engineering Student @ TU Dortmund**  
+Learning Machine Learning & Data Science with **Python**.
 
-Here are some ideas to get you started:
+- 🎓 Focus: Control Systems, Signal Processing, Power Electronics, Communication Engineering  
+- 🤖 Working on: regression models, classification, EDA, and time-series for engineering data  
+- 🧰 Tech: Python (NumPy, pandas, scikit-learn, Matplotlib), Jupyter, MATLAB/Simulink, Git & GitHub  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔬 Selected Projects
+
+- [California Housing Price Prediction – Regularized Linear Regression](https://github.com/Tamer1020/california-housing-regression)  
+  End-to-end ML pipeline with regularized linear models (Ridge, Lasso, ElasticNet) and model comparison.
+
+- [Retail EDA Dashboard](https://github.com/Tamer1020/retail-eda-dashboard)  
+  Exploratory data analysis + interactive Streamlit dashboard for a retail dataset.
+
+## 📫 Contact
+
+- LinkedIn: [tamer-areij](https://www.linkedin.com/in/tamer-areij-881216176/)
+- Email: `tameraraeej@gmail.com`  
+- Location: Germany 🇩🇪
