@@ -3,10 +3,9 @@
 **Electrical Engineering Student @ TU Dortmund**  
 Learning Machine Learning & Data Science with **Python**.
 
-- 🎓 Focus: Control Systems, Signal Processing, Power Electronics, Communication Engineering  
-- 🤖 Working on: regression models, classification, EDA, and time-series for engineering data  
-- 🧰 Tech: Python (NumPy, pandas, scikit-learn, Matplotlib), Jupyter, MATLAB/Simulink, Git & GitHub  
-
+- Focus: Computer Vision, Deep Learning, Machine Learning, AI Systems
+- Working on: object detection (YOLO), video analysis, deep learning pipelines, and real-world AI applications
+- Tech: Python (NumPy, pandas), PyTorch, OpenCV, scikit-learn, Jupyter, Git & GitHub
 ## 🔬 Selected Projects
 
 - [California Housing Price Prediction – Regularized Linear Regression](https://github.com/Tamer1020/california-housing-regression)  
