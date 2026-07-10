@@ -1,22 +1,62 @@
-# Hi, I'm Tamer 👋
+# Hi, I'm Tamer Areij 👋
 
-**Electrical & Information Engineering student @ TU Dortmund** — focused on **Computer Vision & Deep Learning**.
+Final-year Electrical and Information Technology Engineering student at TU Dortmund University, focusing on **Computer Vision**, **Deep Learning**, and **Edge AI**.
 
-I build and deploy object-detection pipelines end to end: dataset preparation, training, evaluation, inference APIs, ONNX export, and latency benchmarking for edge deployment.
+I am currently building practical AI projects around object detection, model deployment, and real-time inference.
 
-- 🔭 **Focus:** Computer Vision, Object Detection, Deep Learning, Edge AI
-- 🛠️ **Working on:** YOLOv8 detection pipelines, FastAPI inference services, ONNX / edge deployment
-- 🧰 **Tech:** Python, PyTorch, OpenCV, Ultralytics (YOLO), ONNX, FastAPI, Docker, NumPy, pandas, scikit-learn
-- 🎯 **Open to:** Working-student / HiWi and junior roles in Computer Vision / AI
+## Focus Areas
 
-## 🔬 Selected Projects
+- Computer Vision
+- Deep Learning
+- Object Detection
+- Edge AI
+- YOLO
+- PyTorch
+- OpenCV
+- ONNX
+- FastAPI
 
-- **[Road Damage Detection](https://github.com/Tamer1020/road-damage-detection)** — End-to-end YOLOv8 pipeline to detect cracks & potholes (RDD2022), with a FastAPI inference API, ONNX export, and FPS/latency benchmarking. *Actively developed — trained results being added.*
-- **[California Housing Price Prediction](https://github.com/Tamer1020/california-housing-regression)** — End-to-end ML pipeline with regularized linear models (Ridge, Lasso, ElasticNet) and model comparison.
-- **[Retail EDA Dashboard](https://github.com/Tamer1020/retail-eda-dashboard)** — Exploratory data analysis + interactive Streamlit dashboard for a retail dataset.
+## Selected Projects
 
-## 📫 Contact
+### Road Damage Detection
 
-- **LinkedIn:** [tamer-areij](https://www.linkedin.com/in/tamer-areij-881216176)
-- **Email:** Tameraraeej@gmail.com
-- **Location:** Germany 🇩🇪
+End-to-end computer vision pipeline for detecting road-surface damage from street-level images using YOLOv8.
+
+The project includes:
+
+- RDD2022 dataset preparation
+- Pascal VOC XML to YOLO conversion
+- YOLO training and evaluation pipeline
+- CLI inference
+- FastAPI inference API
+- ONNX export
+- FPS / latency benchmarking
+- Unit tests and GitHub Actions CI
+
+Repository: [road-damage-detection](https://github.com/Tamer1020/road-damage-detection)
+
+Status: actively developed. Real training results, prediction samples, and benchmark numbers are being added next.
+
+### California Housing Regression
+
+Machine learning regression project for predicting housing prices using structured tabular data.
+
+Repository: [california-housing-regression](https://github.com/Tamer1020/california-housing-regression)
+
+### Retail EDA Dashboard
+
+Exploratory data analysis project focused on retail data insights and visualization.
+
+Repository: [retail-eda-dashboard](https://github.com/Tamer1020/retail-eda-dashboard)
+
+## Technical Stack
+
+**Languages:** Python  
+**Machine Learning / Deep Learning:** PyTorch, YOLO, scikit-learn  
+**Computer Vision:** OpenCV, object detection, annotation conversion  
+**Deployment:** FastAPI, ONNX, Docker  
+**Tools:** Git, GitHub Actions, VS Code
+
+## Current Goal
+
+I am preparing for student assistant / HiWi and junior AI / Computer Vision roles, with a focus on building real, testable, and explainable Computer Vision projects.
