@@ -1,62 +1,73 @@
-# Hi, I'm Tamer Areij 👋
+# Tamer Areij
 
-Final-year Electrical and Information Technology Engineering student at TU Dortmund University, focusing on **Computer Vision**, **Deep Learning**, and **Edge AI**.
+**Junior Computer Vision / AI Engineer | Perception | Python & C++**
 
-I am currently building practical AI projects around object detection, model deployment, and real-time inference.
+I recently completed the requirements for a **B.Sc. in Electrical Engineering and Information Technology at TU Dortmund University** in Germany; the final official graduation documentation is pending.
 
-## Focus Areas
+My main engineering focus is **Computer Vision, perception, applied AI, and robotics**, with hands-on work in automotive perception, object detection, segmentation, model optimization, and deployment-oriented inference.
 
-- Computer Vision
-- Deep Learning
-- Object Detection
-- Edge AI
-- YOLO
-- PyTorch
-- OpenCV
-- ONNX
-- FastAPI
+I am currently seeking **full-time Junior / Entry-Level roles** in Computer Vision, Perception, AI/ML, Robotics, Edge AI, and technically relevant Python/C++ software engineering. I am based in Germany and **open to relocation to Dubai, Abu Dhabi, and the wider UAE**.
 
-## Selected Projects
+## Technical Focus
+
+- **Programming:** Python, C++
+- **Computer Vision:** OpenCV, YOLOv8, YOLO-OBB, object detection, semantic segmentation, lane segmentation
+- **Deep Learning:** PyTorch, CNNs, multi-task learning, knowledge distillation
+- **Model Optimization & Deployment:** ONNX, ONNX Runtime, post-training quantization, FastAPI, Docker
+- **Robotics:** ROS1, TF coordinate frames, RViz, mobile-robot motion control
+- **Engineering Tools:** Git/GitHub, Linux, pytest, GitHub Actions
+- **Data & Evaluation:** NumPy, Pandas, Matplotlib, precision/recall, mAP, ablation studies, latency/FPS and memory profiling
+
+## Selected Engineering Work
 
 ### Road Damage Detection
+**Python · PyTorch · YOLOv8 · ONNX Runtime · FastAPI · Docker**
 
-End-to-end computer vision pipeline for detecting road-surface damage from street-level images using YOLOv8.
+End-to-end road-damage detection pipeline built on the RDD2022 Czech subset, covering dataset conversion, training, evaluation, inference, API serving, ONNX export, testing, CI, and performance benchmarking.
 
-The project includes:
+**Measured baseline highlights**
+- YOLOv8n trained for four road-damage classes
+- 11.7 MB ONNX model at 640 × 640 input resolution
+- ONNX Runtime CPU mean latency: **21.5 ms**
+- PyTorch CPU mean latency: **59.2 ms**
+- ONNX Runtime CPU was approximately **2.76× faster** on the documented benchmark setup
 
-- RDD2022 dataset preparation
-- Pascal VOC XML to YOLO conversion
-- YOLO training and evaluation pipeline
-- CLI inference
-- FastAPI inference API
-- ONNX export
-- FPS / latency benchmarking
-- Unit tests and GitHub Actions CI
+[View repository →](https://github.com/Tamer1020/road-damage-detection)
 
-Repository: [road-damage-detection](https://github.com/Tamer1020/road-damage-detection)
+### Automotive Perception R&D
+**Computer Vision & AI Internship · Performise Labs · 2026**
 
-Status: actively developed. Real training results, prediction samples, and benchmark numbers are being added next.
+Worked on multi-task automotive perception prototypes covering:
+- object detection
+- drivable-area segmentation
+- lane segmentation
+- PyTorch training and evaluation pipelines
+- nuScenes camera experiments
+- knowledge distillation
+- post-training quantization
+- ONNX export and model benchmarking
 
-### California Housing Regression
+This work was completed as part of an industry internship; the code is not public.
 
-Machine learning regression project for predicting housing prices using structured tabular data.
+### Mobile Robotics with ROS
+**TU Dortmund University · 2026**
 
-Repository: [california-housing-regression](https://github.com/Tamer1020/california-housing-regression)
+Academic practical work in C++ and ROS1, including sequential homing, Pure Pursuit waypoint tracking, odometry, TF coordinate transforms, velocity commands, RViz visualization, and debugging of transform/timing issues.
 
-### Retail EDA Dashboard
+## Additional Projects
 
-Exploratory data analysis project focused on retail data insights and visualization.
+- [California Housing Regression](https://github.com/Tamer1020/california-housing-regression) — structured-data machine learning regression project
+- [Retail EDA Dashboard](https://github.com/Tamer1020/retail-eda-dashboard) — exploratory data analysis and visualization project
 
-Repository: [retail-eda-dashboard](https://github.com/Tamer1020/retail-eda-dashboard)
+## Career Direction
 
-## Technical Stack
+My current target roles include:
+- Junior Computer Vision Engineer
+- Perception Engineer
+- AI / Machine Learning Engineer with Computer Vision focus
+- Robotics / Edge AI Engineer
+- Vision Software Engineer
+- Junior Python/C++ Software Engineer for technically relevant roles
 
-**Languages:** Python  
-**Machine Learning / Deep Learning:** PyTorch, YOLO, scikit-learn  
-**Computer Vision:** OpenCV, object detection, annotation conversion  
-**Deployment:** FastAPI, ONNX, Docker  
-**Tools:** Git, GitHub Actions, VS Code
-
-## Current Goal
-
-I am preparing for student assistant / HiWi and junior AI / Computer Vision roles, with a focus on building real, testable, and explainable Computer Vision projects.
+**Location:** Germany · Open to relocation to UAE  
+**LinkedIn:** [linkedin.com/in/tamer-areij-881216176](https://www.linkedin.com/in/tamer-areij-881216176/)
