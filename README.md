@@ -14,9 +14,9 @@ Based in Germany. Available for **full-time junior engineering roles** and open 
 
 **Stack:** Python · PyTorch · OpenCV · ONNX Runtime · FastAPI · Docker
 
-**[Repository](https://github.com/Tamer1020/road-damage-detection) · [60-second demo](https://github.com/user-attachments/assets/643673e6-527c-4384-85cd-e24cadd2915a) · [Model card & evidence](https://github.com/Tamer1020/road-damage-detection/blob/main/docs/MODEL_CARD.md) · [Error analysis](https://github.com/Tamer1020/road-damage-detection/blob/main/docs/ERROR_ANALYSIS.md)**
+**[Repository](https://github.com/Tamer1020/road-damage-detection) · [60-second demo](https://github.com/Tamer1020/road-damage-detection/blob/main/assets/demo/road-damage-demo.mp4) · [Model card & evidence](https://github.com/Tamer1020/road-damage-detection/blob/main/docs/MODEL_CARD.md) · [Error analysis](https://github.com/Tamer1020/road-damage-detection/blob/main/docs/ERROR_ANALYSIS.md)**
 
-[![Road Damage Detection demo: an input road image beside the actual annotated API response](https://raw.githubusercontent.com/Tamer1020/road-damage-detection/main/assets/demo/poster.jpg)](https://github.com/user-attachments/assets/643673e6-527c-4384-85cd-e24cadd2915a)
+[![Road Damage Detection demo: an input road image beside the actual annotated API response](https://raw.githubusercontent.com/Tamer1020/road-damage-detection/main/assets/demo/poster.jpg)](https://github.com/Tamer1020/road-damage-detection/blob/main/assets/demo/road-damage-demo.mp4)
 
 *Demo replays real HTTP responses from the released model, including successful detections and failure cases. Chapter timing is edited.*
 
@@ -34,9 +34,9 @@ Export agreement checks backend consistency, not detection accuracy. Independent
 
 **Stack:** Python · OpenCV · NumPy · pytest · GitHub Actions
 
-**[Repository](https://github.com/Tamer1020/road-camera-health-monitor) · [60-second demo](https://github.com/user-attachments/assets/54c06913-7894-4275-a542-194573580871) · [Evaluation & scope](https://github.com/Tamer1020/road-camera-health-monitor/blob/main/docs/EVALUATION.md) · [Engineering design](https://github.com/Tamer1020/road-camera-health-monitor/blob/main/docs/DESIGN.md)**
+**[Repository](https://github.com/Tamer1020/road-camera-health-monitor) · [60-second demo](https://github.com/Tamer1020/road-camera-health-monitor/blob/main/docs/demo/road-camera-health-demo.mp4) · [Evaluation & scope](https://github.com/Tamer1020/road-camera-health-monitor/blob/main/docs/EVALUATION.md) · [Engineering design](https://github.com/Tamer1020/road-camera-health-monitor/blob/main/docs/DESIGN.md)**
 
-[![Road Camera Health Monitor demo: the same synthetic startup-blur clip with a healthy file baseline and an automatic baseline](https://raw.githubusercontent.com/Tamer1020/road-camera-health-monitor/main/docs/demo/poster.jpg)](https://github.com/user-attachments/assets/54c06913-7894-4275-a542-194573580871)
+[![Road Camera Health Monitor demo: the same synthetic startup-blur clip with a healthy file baseline and an automatic baseline](https://raw.githubusercontent.com/Tamer1020/road-camera-health-monitor/main/docs/demo/poster.jpg)](https://github.com/Tamer1020/road-camera-health-monitor/blob/main/docs/demo/road-camera-health-demo.mp4)
 
 *Actual pipeline output on a synthetic scene with injected faults. The demo shows how the calibration reference changes a startup-blur decision.*
 
