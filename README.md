@@ -54,7 +54,7 @@ Automotive perception prototypes: object detection, drivable-area and lane segme
 
 **B.Sc. Electrical Engineering and Information Technology · TU Dortmund University, Germany**
 
-All degree requirements completed; final official graduation documentation pending.
+All B.Sc. degree requirements completed. Available for full-time Junior Computer Vision, Perception and Edge AI roles.
 
 **Academic mobile robotics · C++ / ROS**
 
