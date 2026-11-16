@@ -2,13 +2,25 @@
 
 **Junior Computer Vision / AI Engineer · Perception · Robotics Software · Edge AI**
 
-I build and evaluate computer vision pipelines, drawing on an automotive perception internship and academic C++ / ROS robotics work. My projects cover data preparation, inference, failure analysis and deployment verification.
+I work on mobile robot navigation and computer vision in Python and C++. My projects include a ROS 2 robot that changes viewpoint to inspect a gauge, a road damage detector and a camera health monitor.
 
 Based in Germany. Available for **full-time junior engineering roles** and open to relocation to **Dubai, Abu Dhabi and the wider UAE**.
 
 ## Featured Engineering Projects
 
-### 01 · Road Damage Detection
+### 01 · [InspectLoop](https://github.com/Tamer1020/InspectLoop) — Autonomous Gauge Inspection
+
+A mobile robot navigates a simulated warehouse with ROS 2 and Nav2, then uses OpenCV to read analog pressure gauges. When a pipe hid part of gauge PG-12, the robot moved twice before accepting a reading of **6.7833 bar**. A second gauge stayed unreadable and was logged as **unresolved**.
+
+**[Watch the mission · 1 min 37 s](https://github.com/Tamer1020/InspectLoop/releases/download/v3.2.0/InspectLoop-Demo-V2.mp4)** · [PG-12 reinspection · 34 s](https://github.com/Tamer1020/InspectLoop/releases/download/v3.2.0/InspectLoop-PG12-V2.mp4) · [Recorded mission report](https://github.com/Tamer1020/InspectLoop/blob/main/docs/media/capture/20261115_140724_e358/mission_report.md)
+
+[![InspectLoop in Gazebo beside the onboard camera’s rectified view of gauge PG-12.](https://raw.githubusercontent.com/Tamer1020/InspectLoop/main/docs/media/v2/InspectLoop-V2-Cover.jpg)](https://github.com/Tamer1020/InspectLoop/releases/download/v3.2.0/InspectLoop-Demo-V2.mp4)
+
+**Next step · Deep learning for gauge reading.** I plan to train a PyTorch model to locate six landmarks on the dial and compare it with the current ArUco/OpenCV reader on held-out gauge panels. I’ll measure pressure error, how often each reader returns a reading, and how often it accepts an incorrect one when the dial is partly hidden or viewed at an angle.
+
+---
+
+### 02 · Road Damage Detection
 
 **From road images to an inspectable inference service.** A YOLOv8n pipeline for four road-damage classes: validated RDD2022 data preparation, training and evaluation, FastAPI image inference, ONNX export verification and CPU benchmarking.
 
@@ -28,7 +40,7 @@ Export agreement checks backend consistency, not detection accuracy. Independent
 
 ---
 
-### 02 · Road Camera Health Monitor
+### 03 · Road Camera Health Monitor
 
 **Camera-quality diagnostics for perception pipelines.** An OpenCV / NumPy pipeline for recorded video that uses per-camera calibration and temporal persistence to detect degradation and emit fault events, annotated video and CSV/JSON reports. No trained model or GPU is required.
 
@@ -66,7 +78,7 @@ Sequential homing and Pure Pursuit waypoint tracking, with odometry, TF coordina
 |---|---|
 | Computer vision & ML | PyTorch, OpenCV, NumPy, YOLOv8 / YOLO-OBB, object detection, segmentation, knowledge distillation |
 | Inference & evaluation | ONNX / ONNX Runtime, FastAPI, mAP evaluation, latency/FPS benchmarking, post-training quantization |
-| Software & robotics | Python, C++, Linux, Git, Docker, pytest, GitHub Actions, ROS, TF, RViz |
+| Software & robotics | Python, C++, Linux, Git, Docker, pytest, GitHub Actions, ROS, ROS 2, Nav2, TF, RViz |
 
 ## Contact
 
